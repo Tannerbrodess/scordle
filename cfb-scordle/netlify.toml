@@ -1,0 +1,6 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# No build step needed — index.html is static and the game data is embedded.
+# Netlify installs @netlify/blobs from package.json and bundles the function.
